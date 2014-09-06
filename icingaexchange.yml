@@ -1,9 +1,9 @@
-name: 
+name: check_usbtlight
 description: "file:///README.md"
 url: "https://www.netways.org/projects/plugins"
 tags: ~
-vendor: Netways
-target: Temperature
+vendor: NETWAYS
+target: Hardware
 type: Plugin
 license: gplv2
 releases: 
@@ -14,6 +14,6 @@ releases:
       - 
         name: check_usbtlight.pl
         url: "file:///check_usbtlight.pl"
-        description: none
-        checksum: 
+        description: "Additional patches by Rene Koch"
+        checksum: 526f0c3598c5a4b361a6ad0b49550200
 
